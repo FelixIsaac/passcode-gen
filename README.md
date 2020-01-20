@@ -10,4 +10,4 @@ Options when you want to generate a password
 
 This is the GUI for the application, a very simple design:
 
-![Main GUI](images/gui.png "Main GUI")
+![Main GUI](images/gui.PNG "Main GUI")
