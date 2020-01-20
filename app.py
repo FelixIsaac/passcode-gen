@@ -4,11 +4,11 @@ import re
   
 def strength(password, stringBased = True):
   # Points
-  points = 0;
+  points = len(password);
   
   points += (len(re.findall(r'\w', password)))
   points += (len(re.findall(r'\d', password))) * 2
-  points += (len(re.findall(r'\b', password))) * 3
+  points += (len(re.findall(r'\b', password))) * 4
   
   if stringBased:
     if points > 80:
